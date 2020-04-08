@@ -34,6 +34,7 @@ html {
 }
 
 .container-fluid.inner {
+  background-color: #69696996;
   background-image: url("/assets/img/IMG_0672.jpg");
   background-size: cover;
   height: 80vh;
@@ -51,12 +52,14 @@ html {
 }
 
 #categories .side-img {
+  background-color: #69696996;
   background-image: url("/assets/img/IMG_0560.jpg");
   background-size: cover;
   height: 148.6vh;
 }
 
 #categories .col-img-1 {
+  background-color: #69696996;
   margin: 0 50px 50px 0;
   height: 46vh;
   background-image: url("/assets/img/eighteen-front.jpg");
@@ -64,6 +67,7 @@ html {
 }
 
 #categories .col-img-2 {
+  background-color: #69696996;
   margin: 0 50px 50px 0;
   height: 46vh;
   background-image: url("/assets/img/fight-back.jpg");
@@ -71,6 +75,7 @@ html {
 }
 
 #categories .col-img-3 {
+  background-color: #69696996;
   margin: 0 50px 50px 0;
   height: 46vh;
   background-image: url("/assets/img/IMG_0560.jpg");
