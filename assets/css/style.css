@@ -59,27 +59,27 @@ html {
 }
 
 #categories .col-img-1 {
-  background-color: #69696996;
   margin: 0 50px 50px 0;
   height: 46vh;
   background-image: url("/assets/img/eighteen-front.jpg");
   background-size: cover;
+  background-color: #69696996;
 }
 
 #categories .col-img-2 {
-  background-color: #69696996;
   margin: 0 50px 50px 0;
   height: 46vh;
   background-image: url("/assets/img/fight-back.jpg");
   background-size: cover;
+  background-color: #69696996;
 }
 
 #categories .col-img-3 {
-  background-color: #69696996;
   margin: 0 50px 50px 0;
   height: 46vh;
   background-image: url("/assets/img/IMG_0560.jpg");
   background-size: cover;
+  background-color: #69696996;
 }
 
 #about-us {
