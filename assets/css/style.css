@@ -204,7 +204,7 @@ p {
 }
 
 #about-us h2 {
-  font-size: 70px;
+  font-size: 50px;
   color: white;
   font-family: 'Source Serif Pro', serif;
   padding: 0 0 40px 0;
@@ -212,7 +212,7 @@ p {
 
 #about-us p {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #about-us .logo-col {
@@ -221,8 +221,30 @@ p {
 
 #about-us .logo {
   font-family: 'Source Serif Pro', serif;
+  margin: 30px 0 0 50px;
   color: white;
   font-size: 130px;
+}
+
+#about-us button {
+  margin-top: 40px;
+  border: solid white 3px;
+  outline: 0;
+  padding: 10px;
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  -webkit-transition-duration: 1s all;
+          transition-duration: 1s all;
+}
+
+#about-us button:hover {
+  background-color: #000000;
+  border: solid white 3px;
+  color: white;
 }
 
 #store {
@@ -231,7 +253,7 @@ p {
 }
 
 #store h2 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: 'Source Serif Pro', serif;
   padding: 0 0 50px 0;
 }
@@ -253,6 +275,10 @@ p {
   border: none;
   -webkit-transition-duration: .8s;
           transition-duration: .8s;
+}
+
+.card h1 {
+  font-size: 20px;
 }
 
 .card:hover {
