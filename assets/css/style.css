@@ -8,6 +8,16 @@ html {
   background: transparent;
 }
 
+body {
+  font-family: 'Source Serif Pro', serif;
+  background-color: white;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+}
+
 .main {
   padding: 0 8vw 0 8vw;
 }
@@ -36,55 +46,165 @@ html {
   padding: 35vh 0 0 0;
 }
 
-.container-fluid.body .col-md-5 {
+.container-fluid.inner:hover {
+  background-color: #79797996;
+}
+
+.container-fluid.body .title {
+  padding: 25px 0 25px 100px;
   color: white;
   background-color: black;
 }
 
+.container-fluid.body .title h1 {
+  font-size: 55px;
+  padding: 0 0 17px 0;
+}
+
+.container-fluid.body .title p {
+  font-size: 18px;
+}
+
 #categories {
-  height: 150vh;
+  height: 1000px;
 }
 
 #categories .side-img {
   background-image: url("https://vernon-van-der-merwe.github.io/tinkerwatches.com-themed-website/assets/img/IMG_0560.jpg");
   background-size: cover;
-  height: 148.6vh;
+  height: 940px;
+  padding: 0;
   background-color: #69696996;
+}
+
+#categories .side-img h3 {
+  color: white;
+}
+
+#categories .side-img .img-inner {
+  height: 940px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#categories .side-img .img-inner h3 {
+  display: none;
+}
+
+#categories .side-img .img-inner:hover {
+  background-color: #00000096;
+}
+
+#categories .side-img .img-inner:hover h3 {
+  display: block;
 }
 
 #categories .col-img-1 {
   margin: 0 50px 50px 0;
-  height: 46vh;
+  height: 280px;
   background-image: url("https://vernon-van-der-merwe.github.io/tinkerwatches.com-themed-website/assets/img/eighteen-front.jpg");
   background-size: cover;
   background-color: #69696996;
+  padding: 0;
+}
+
+#categories .col-img-1 h3 {
+  color: white;
+}
+
+#categories .col-img-1 .img-inner {
+  height: 280px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#categories .col-img-1 .img-inner h3 {
+  display: none;
+}
+
+#categories .col-img-1 .img-inner:hover {
+  background-color: #00000096;
+}
+
+#categories .col-img-1 .img-inner:hover h3 {
+  display: block;
+}
+
+#categories .col-img-1 .img-inner:hover .col-img-1 {
+  height: 240px;
 }
 
 #categories .col-img-2 {
   margin: 0 50px 50px 0;
-  height: 46vh;
+  height: 280px;
   background-image: url("https://vernon-van-der-merwe.github.io/tinkerwatches.com-themed-website/assets/img/fight-back.jpg");
   background-size: cover;
   background-color: #69696996;
+  padding: 0;
+}
+
+#categories .col-img-2 h3 {
+  color: white;
+}
+
+#categories .col-img-2 .img-inner {
+  height: 280px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#categories .col-img-2 .img-inner h3 {
+  display: none;
+}
+
+#categories .col-img-2 .img-inner:hover {
+  background-color: #00000096;
+}
+
+#categories .col-img-2 .img-inner:hover h3 {
+  display: block;
 }
 
 #categories .col-img-3 {
   margin: 0 50px 50px 0;
-  height: 46vh;
+  height: 280px;
   background-image: url("https://vernon-van-der-merwe.github.io/tinkerwatches.com-themed-website/assets/img/IMG_0560.jpg");
   background-size: cover;
   background-color: #69696996;
+  padding: 0;
+}
+
+#categories .col-img-3 h3 {
+  color: white;
+}
+
+#categories .col-img-3 .img-inner {
+  height: 280px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#categories .col-img-3 .img-inner h3 {
+  display: none;
+}
+
+#categories .col-img-3 .img-inner:hover {
+  background-color: #00000096;
+}
+
+#categories .col-img-3 .img-inner:hover h3 {
+  display: block;
 }
 
 #about-us {
   background-color: black;
   margin: 50px 0 50px 0;
-  height: 50vh;
-  padding: 12vh 20vw;
+  height: 600px;
+  padding: 17vh 20vw;
 }
 
 #about-us h2 {
-  font-size: 60px;
+  font-size: 70px;
   color: white;
   font-family: 'Source Serif Pro', serif;
   padding: 0 0 40px 0;
@@ -92,6 +212,7 @@ html {
 
 #about-us p {
   color: white;
+  font-size: 20px;
 }
 
 #about-us .logo-col {
@@ -105,11 +226,62 @@ html {
 }
 
 #store {
+  padding: 80px 0 0 0;
   height: 70vh;
 }
 
 #store h2 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: 'Source Serif Pro', serif;
+  padding: 0 0 50px 0;
+}
+
+#store .secondary-title {
+  color: #000000c7;
+  margin-bottom: 50px;
+}
+
+#store .secondary-title h3 {
+  font-size: 45px;
+}
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border: none;
+  -webkit-transition-duration: .8s;
+          transition-duration: .8s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 79px 34px rgba(179, 179, 179, 0.41);
+  box-shadow: 0px 0px 79px 34px rgba(179, 179, 179, 0.41);
+}
+
+.card .desc {
+  padding: 0 60px 30px 60px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
 /*# sourceMappingURL=style.css.map */
